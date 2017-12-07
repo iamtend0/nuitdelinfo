@@ -19,9 +19,9 @@
 			</select> 
 			<br /> <br />
 			
-			<!-- Slider : de 0 à X verres //min="0" max="20" -->
+			<!-- Slider : de 0 à X verres //-->
 			 Tu as bu :
-			<input type="range" value="0" list="graduations"/>
+			<input type="range" value="0" list="graduations" min="0" max="20" />
 			<datalist id="graduations">
 				<option value="0" label="0 verre" />
 				<option value="1" />
