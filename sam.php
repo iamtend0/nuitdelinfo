@@ -27,7 +27,7 @@ $_SESSION['nb'];
 						<div class="content">
 							<header class="align-center">
 								<p>Sécurité routière</p>
-								<h2>Combien êtes ce soir ?</h2>
+								<h2>Combien êtes-vous ce soir ?</h2>
 							</header>
 							<form method="post" action="noms.php">
 								<div class="align-center">
