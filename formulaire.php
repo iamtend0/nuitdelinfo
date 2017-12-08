@@ -20,7 +20,7 @@
 			<br /><br />
 			
 			 Tu as bu : 0
-			<!-- Slider : de 0 à 10+ verres -->
+			<!-- Slider : de 0 à 10 verres -->
 			<input id="nbverres" name="nbverres" type="range" value="0" list="graduations" min="0" max="10" required />
 			<output name="afficheverres" for="nbverres"></output> verres
 			
@@ -43,11 +43,11 @@
 			
 			Tu pèses :
 			<!-- Champ de texte : poids en kg -->
-			<input name="poids" type="number" value="ton poids en kg" required />
+			<input name="poids" type="number" value="ton poids en kg" required /> kg
 			<br /><br />
 			
 			<!-- Bouton d'envoi du formulaire -->
-			 <input type="submit" value="valider" />
+			 <input type="submit" value="Check !" />
 		</form>
 	</body>
 </html>
