@@ -9,7 +9,7 @@
 		<h1>Est-ce que tu peux conduire ?</h1>
 		
 		<!-- Formulaire -->
-		<form method="post" action="formulaire.php">
+		<form method="post" action="calculform.php">
 			Tu es :
 			<!-- Menu déroulant : genre -->
 			<select name="genre">
@@ -44,7 +44,7 @@
 			<br /><br />
 			
 			<!-- Bouton d'envoi du formulaire -->
-			<input type="submit" value ="Alors ?" />
+			 <input type="submit" value="valider" />
 		</form>
 	</body>
 </html>
