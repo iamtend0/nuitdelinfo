@@ -1,5 +1,8 @@
 <?php
-switch($_GET['erreur'])
+
+include("header.php");
+
+switch(isset($_GET['erreur']) ? $_GET['erreur'] : 404)
 {
    case '400':
    echo 'Échec de l\'analyse HTTP.';
@@ -14,7 +17,7 @@ switch($_GET['erreur'])
    echo 'Requête interdite !';
    break;
    case '404':
-   echo 'La page n\'existe pas ou plus !';
+   echo '<img src="theme/img/404.png" alt="Image 404"/>';
    break;
    case '405':
    echo 'Méthode non autorisée.';
@@ -38,6 +41,6 @@ switch($_GET['erreur'])
    echo 'Version HTTP non supportée.';
    break;
    default:
-   echo 'Erreur !';
+   echo '<img src="theme/img/404.png" alt="Image 404"/>';
 }
 ?>
