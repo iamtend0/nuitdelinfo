@@ -43,4 +43,6 @@ switch(isset($_GET['erreur']) ? $_GET['erreur'] : 404)
    default:
    echo '<img src="theme/img/404.png" alt="Image 404"/>';
 }
+
+include("footer.php");
 ?>
