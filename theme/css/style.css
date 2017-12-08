@@ -1,0 +1,15 @@
+body {
+	padding-top: 40px;
+}
+
+header#main {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+
+#radio {
+	display: none;
+}

@@ -4313,6 +4313,8 @@
 			}
 
 		}
-#music-info {
-	display:none;
+
+#musicInfo {
+	display: none;
+	overflow: hidden;
 }
