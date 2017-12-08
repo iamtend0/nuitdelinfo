@@ -1,7 +1,5 @@
 <?php
-
-session_start(); // On démarre la session AVANT toute chose
-
+	session_start(); // On démarre la session AVANT toute chose
 ?>
 
 <!DOCTYPE html>
@@ -13,8 +11,8 @@ session_start(); // On démarre la session AVANT toute chose
 <body>
 	<header></header>
 		<?php $_nbPers =$_SESSION['nb'] ?>
-		<h1>Le grand gagnant du'une nuit sans alcool est:</h1>
-		<?php $RANDOM = rand ( 0 , $_nbPers );
+		<h1>Le grand gagnant d'une nuit sans alcool est:</h1>
+		<?php $RANDOM = rand ( 1 , $_nbPers );
 			$SAM= 'firstname'.$RANDOM;
 			echo("Sam : ".$_POST[$SAM]);
 		?>
