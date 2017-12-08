@@ -1,15 +1,18 @@
 <header>
+	<a href="#menu">
+	Menu
+	</a>
 	<script src="js/radio.js" type="text/javascript">
 	</script>
 	<div id="radio">
 		<audio controls>
-			<source type="audio/mpeg" src="http://listen.radioking.com/radio/116593/stream/155905" 
+			<source id="radioSource"
+				type="audio/mpeg" 
+				src="http://listen.radioking.com/radio/116593/stream/155905"  
 				data-info-album-art=""
 				data-info-album-title=""
 				data-info-artist=""
 				data-info-title=""
-				data-info-year=""
-				data-info-att=""
 			>
 			Your browser does not support this audio format
 		</audio>
