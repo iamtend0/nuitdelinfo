@@ -9,10 +9,10 @@
 		<h1>Est-ce que tu peux conduire ?</h1>
 		
 		<!-- Formulaire -->
-		<form method="post" action="calculform.php">
+		<form method="post" action="calculform.php" oninput="afficheverres.value=parseInt(nbverres.value)">
 			Tu es :
 			<!-- Menu déroulant : genre -->
-			<select name="genre">
+			<select name="genre" required>
 				<option value="masculin">un homme</option>
 				<option value="feminin">une femme</option>
 				<option value="autre">autre</option>
@@ -21,7 +21,10 @@
 			
 			 Tu as bu : 0
 			<!-- Slider : de 0 à 10+ verres -->
-			<input name="nbverres" type="range" value="0" list="graduations" min="0" max="10" />
+			<input id="nbverres" name="nbverres" type="range" value="0" list="graduations" min="0" max="10" required />
+			<output name="afficheverres" for="nbverres"></output> verres
+			
+			
 			<!-- graduations non supportées par Firefox -->
 			<datalist id="graduations">
 				<option value="0" />
@@ -35,12 +38,12 @@
 				<option value="8" />
 				<option value="9" />
 				<option value="10" />
-			</datalist> 10+ verres
+			</datalist>
 			<br /><br />
 			
 			Tu pèses :
 			<!-- Champ de texte : poids en kg -->
-			<input name="poids" type="text" value="ton poids en kg" min="0" max="200" />
+			<input name="poids" type="number" value="ton poids en kg" required />
 			<br /><br />
 			
 			<!-- Bouton d'envoi du formulaire -->
