@@ -13,3 +13,6 @@ header#main {
 #radio {
 	display: none;
 }
+h1, h2 {
+	text-align: center;
+}

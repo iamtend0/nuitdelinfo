@@ -9,7 +9,7 @@
 	</head>
 		<?php include ("header.php"); ?>
 
-		<section class="banner full">
+		<section class="anner fll">
 			<article>
 				<div class="inner">
 					<header>
