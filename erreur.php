@@ -1,15 +1,6 @@
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>L'équipe</title>
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="theme/css/style.css">
-	</head>
-<body class="subpage">
 
 <?php
 
-include("header.php");
 
 switch(isset($_GET['erreur']) ? $_GET['erreur'] : 404)
 {
@@ -53,8 +44,4 @@ switch(isset($_GET['erreur']) ? $_GET['erreur'] : 404)
    echo '<img src="theme/img/404.png" alt="Image 404"/>';
 }
 
-include("footer.php");
-
-</body>
-</html> 
 ?>
