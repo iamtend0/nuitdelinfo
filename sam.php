@@ -10,6 +10,7 @@ $_SESSION['nb'];
 		<meta charset="utf-8">
 		<title>Qui sera Sam ?</title>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="theme/css/style.css" />
 	</head>
 <body class="subpage">
 		<?php include("header.php");?>

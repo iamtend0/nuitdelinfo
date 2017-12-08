@@ -1,11 +1,12 @@
-<header id="main">
-	<nav>
-		<a href="index.php">APPG</a>
-		<a href="sam.php" >Sam</a>
-		<a href="vnios" >Une page introuvable?</a>
-		<a href="formulaire.php" >Est-ce que tu peux conduire</a>
-		<div class="animation start-home"></div>
-	</nav>
+<header id="footer">
+	<div class="container">
+		<ul class="icons">
+			<li><a href="index.php" class="copyright"><span class="label">Accueil</span></a></li>
+			<li><a href="sam.php" class="copyright"><span class="label">Sam, celui qui ne boit pas</span></a></li>
+			<li><a href="formulaire.php" class="copyright"><span class="label">Pouvez vous conduire ?</span></a></li>
+			<li><a href="equipe.php" class="copyright"><span class="label">L'équipe</span></a></li>
+		</ul>
+	</div>
 </header>
 <div id="radio">
 	<span id="bar">

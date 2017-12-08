@@ -9,6 +9,7 @@ session_start(); // On démarre la session AVANT toute chose
 		<meta charset="UTF-8">
 		<title>Qui sera Sam ?</title>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="theme/css/style.css" />
 	</head>
 <body class="subpage">
 	<?php include("header.php");?>
