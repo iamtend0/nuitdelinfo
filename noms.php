@@ -59,8 +59,6 @@ session_start(); // On démarre la session AVANT toute chose
 				</div>
 			</section>
 
-		
-		
-	<footer></footer>
+		<?php include("footer.php");?>
 </body>
 </html> 

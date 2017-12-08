@@ -41,7 +41,6 @@ $_SESSION['nb'];
 				</div>
 			</section>			
 			
-		
-	<footer></footer>
+		<?php include("footer.php");?>
 </body>
 </html> 
