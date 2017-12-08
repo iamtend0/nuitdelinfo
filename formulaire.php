@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<title>Est-ce que tu peux conduire ?</title>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="theme/css/style.css" />
 	</head>
 	
 	<body class="subpage">
