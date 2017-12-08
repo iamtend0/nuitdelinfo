@@ -1,5 +1,5 @@
 # Activation du mod rewrite d'Apache
-RewriteEngine On
+# RewriteEngine On
 
 #Erreur Direction Page
 ErrorDocument 404 /erreur.php?erreur=404
