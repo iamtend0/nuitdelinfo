@@ -13,7 +13,6 @@
 			<img src="" alt="Cover" id="cover"/>
 			<li id="title"></li>
 			<li id="artist"></li>
-			<li id="album"></li>
 		</ul>
 	</div>
 </div>
