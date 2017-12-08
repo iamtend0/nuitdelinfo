@@ -2,5 +2,4 @@
 RewriteEngine On
 
 #Erreur Direction Page
-#Fonctionne en local @todo à modifier pour ovh
-ErrorDocument 404 /nuitdelinfo/erreur.php?erreur=404
+ErrorDocument 404 /erreur.php?erreur=404
