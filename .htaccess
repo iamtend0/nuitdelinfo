@@ -2,4 +2,4 @@
 RewriteEngine On
 
 #Erreur Direction Page
-ErrorDocument 404 /erreur.php?erreur=404
+ErrorDocument 404 /nuitdelinfo/erreur.php?erreur=404
