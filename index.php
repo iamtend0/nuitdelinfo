@@ -13,7 +13,6 @@
 			<article>
 				<div class="inner">
 					<header>
-						<p>La securite routiere</p>
 						<h2>APPG</h2>
 					</header>
 				</div>

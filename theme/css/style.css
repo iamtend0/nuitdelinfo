@@ -11,8 +11,24 @@ header#main {
 
 
 #radio {
-	display: none;
+	display: none;/**/
+/*	display: block;*/
+	width: 50%;
 }
+
+aside#musicInfo {
+	width: 50%;
+	display: block;
+}
+
+aside#musicInfo > img {
+	width: 75%;
+}
+
+aside#musicInfo ul > li {
+	list-style-type: none;
+}
+
 h1, h2 {
 	text-align: center;
 }

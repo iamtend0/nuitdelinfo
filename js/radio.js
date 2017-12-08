@@ -7,7 +7,9 @@ function getInfo(){
 	var info = JSON.parse(request.responseText);
 
 	document.getElementById("title").innerHTML=info.title;
-	document.getElementById("artist").innerHTML=artist;
+	document.getElementById("artist").innerHTML=info.artist;
 	var cover=document.getElementById("cover")
 	cover.src=info.cover;
 }
+
+document.onload=getInfo()
