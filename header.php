@@ -17,7 +17,14 @@
 		Your browser does not support this audio format
 	</audio>
 	<input type="button" onclick="getInfo()" />
-	<span id="timestamp" ></span>
+	<div id="music-info" >
+		<ul>
+			<img src="" alt="Cover" id="cover"/>
+			<li id="title"></li>
+			<li id="artist"></li>
+			<li id="album"></li>
+		</ul>
+	</div>
 </div>
 <nav id="menu">
 	<ul class="links">
