@@ -11,7 +11,6 @@
 
 		<section class="banner full">
 			<article>
-				<img src="images/slide01.jpg" alt="" />
 				<div class="inner">
 					<header>
 						<p>La securite routiere</p>
@@ -20,7 +19,6 @@
 				</div>
 			</article>
 			<article>
-				<img src="images/slide02.jpg" alt="" />
 				<div class="inner">
 					<header>
 						<nav id="menu">
